@@ -1,0 +1,26 @@
+PODS:
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
+  - SDWebImageSwiftUI (3.0.4):
+    - SDWebImage (~> 5.10)
+  - SwiftUIFontIcon (2.1.0)
+
+DEPENDENCIES:
+  - SDWebImageSwiftUI
+  - SwiftUIFontIcon
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SwiftUIFontIcon
+
+SPEC CHECKSUMS:
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
+  SDWebImageSwiftUI: 824628d8220906aa101f62b39a7492edd138449d
+  SwiftUIFontIcon: f2b3b55c3cb04255ad3ac11584481f950c3976ad
+
+PODFILE CHECKSUM: 12a4251bff0e88945de7a7ae8d2d0b2adbd026ea
+
+COCOAPODS: 1.15.2

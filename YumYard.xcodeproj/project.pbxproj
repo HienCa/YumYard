@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3029C28F2BF5E10B005E5D31 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029C28E2BF5E10B005E5D31 /* AppConstants.swift */; };
+		3029C2942BF5E831005E5D31 /* RecommendFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029C2932BF5E831005E5D31 /* RecommendFood.swift */; };
+		3029C2972BF5F55E005E5D31 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029C2962BF5F55E005E5D31 /* FoodDetail.swift */; };
+		3029C29C2BF5F671005E5D31 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029C29B2BF5F671005E5D31 /* Food.swift */; };
+		30710B882BF5A8F60034BB45 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30710B872BF5A8F60034BB45 /* SignIn.swift */; };
+		30710B8A2BF5ABB10034BB45 /* ColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30710B892BF5ABB10034BB45 /* ColorApp.swift */; };
+		30710B8E2BF5B32C0034BB45 /* MyInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30710B8D2BF5B32C0034BB45 /* MyInput.swift */; };
+		30710B952BF5BEA00034BB45 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30710B942BF5BEA00034BB45 /* Home.swift */; };
+		3097D9EC2BF4BA3700584C78 /* YumYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097D9EB2BF4BA3700584C78 /* YumYardApp.swift */; };
+		3097D9F02BF4BA3800584C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3097D9EF2BF4BA3800584C78 /* Assets.xcassets */; };
+		3097D9F32BF4BA3800584C78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3097D9F22BF4BA3800584C78 /* Preview Assets.xcassets */; };
+		3097D9FD2BF4BA9100584C78 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097D9FC2BF4BA9100584C78 /* SplashScreen.swift */; };
+		3097DA022BF4BB4C00584C78 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097DA012BF4BB4C00584C78 /* ColorUtils.swift */; };
+		3097DA042BF4BD2500584C78 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097DA032BF4BD2500584C78 /* Color+Extension.swift */; };
+		3097DA082BF4C1BF00584C78 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097DA072BF4C1BF00584C78 /* ImageName.swift */; };
+		3097DA1E2BF4CABC00584C78 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA0B2BF4CAA000584C78 /* Poppins-Light.ttf */; };
+		3097DA1F2BF4CABC00584C78 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA0C2BF4CAA100584C78 /* Poppins-Italic.ttf */; };
+		3097DA202BF4CABC00584C78 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA0D2BF4CAA300584C78 /* Poppins-LightItalic.ttf */; };
+		3097DA212BF4CABC00584C78 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA0E2BF4CAA500584C78 /* Poppins-Regular.ttf */; };
+		3097DA222BF4CABC00584C78 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA0F2BF4CAA700584C78 /* Poppins-BoldItalic.ttf */; };
+		3097DA232BF4CABC00584C78 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA102BF4CAA800584C78 /* Poppins-ExtraLightItalic.ttf */; };
+		3097DA242BF4CABC00584C78 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA112BF4CAAA00584C78 /* Poppins-ExtraLight.ttf */; };
+		3097DA252BF4CABC00584C78 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA122BF4CAAC00584C78 /* Poppins-ExtraBold.ttf */; };
+		3097DA262BF4CABC00584C78 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA132BF4CAAD00584C78 /* Poppins-ExtraBoldItalic.ttf */; };
+		3097DA272BF4CABC00584C78 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA142BF4CAAF00584C78 /* Poppins-SemiBoldItalic.ttf */; };
+		3097DA282BF4CABC00584C78 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA152BF4CAB000584C78 /* Poppins-Black.ttf */; };
+		3097DA292BF4CABC00584C78 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA162BF4CAB200584C78 /* Poppins-Medium.ttf */; };
+		3097DA2A2BF4CABC00584C78 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA172BF4CAB300584C78 /* Poppins-BlackItalic.ttf */; };
+		3097DA2B2BF4CABC00584C78 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA182BF4CAB500584C78 /* Poppins-SemiBold.ttf */; };
+		3097DA2C2BF4CABC00584C78 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA192BF4CAB600584C78 /* Poppins-Thin.ttf */; };
+		3097DA2D2BF4CABC00584C78 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA1A2BF4CAB800584C78 /* Poppins-MediumItalic.ttf */; };
+		3097DA2E2BF4CABC00584C78 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA1B2BF4CAB900584C78 /* Poppins-ThinItalic.ttf */; };
+		3097DA2F2BF4CABC00584C78 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA1C2BF4CABB00584C78 /* Poppins-Bold.ttf */; };
+		3097DA302BF4CABC00584C78 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3097DA1D2BF4CABC00584C78 /* OFL.txt */; };
+		30B210C62BF845B500A51692 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210C52BF845B500A51692 /* SignUp.swift */; };
+		30B210CA2BF8460100A51692 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210C92BF8460100A51692 /* ForgotPassword.swift */; };
+		30B210CD2BF8481500A51692 /* MyButtonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210CC2BF8481500A51692 /* MyButtonPrimary.swift */; };
+		30B210D12BF8635F00A51692 /* VerificationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210D02BF8635F00A51692 /* VerificationCode.swift */; };
+		30B210D52BF8676400A51692 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210D42BF8676400A51692 /* ShoppingCart.swift */; };
+		30B210D72BF8679100A51692 /* ShoppingCartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210D62BF8679100A51692 /* ShoppingCartItem.swift */; };
+		30B210D92BF893B600A51692 /* DialogVerificationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210D82BF893B600A51692 /* DialogVerificationCode.swift */; };
+		30B210DC2BF89D7E00A51692 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210DB2BF89D7E00A51692 /* CacheManager.swift */; };
+		30B210E02BF89EAC00A51692 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B210DF2BF89EAC00A51692 /* CacheKey.swift */; };
+		30D2083E2BF7099D007A3C42 /* MyDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2083D2BF7099D007A3C42 /* MyDialog.swift */; };
+		30D208432BF7466B007A3C42 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D208422BF7466B007A3C42 /* RoundedCorner.swift */; };
+		30D2086E2BF76ABE007A3C42 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2086D2BF76ABE007A3C42 /* SideMenuView.swift */; };
+		30D208702BF76ACF007A3C42 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2086F2BF76ACF007A3C42 /* SideMenuHeaderView.swift */; };
+		30D208722BF76AE0007A3C42 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D208712BF76AE0007A3C42 /* SideMenuRowView.swift */; };
+		30D208742BF76AF2007A3C42 /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D208732BF76AF2007A3C42 /* SideMenuOptionModel.swift */; };
+		8C8E01F2922969BB70A96AAC /* Pods_YumYard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE340126113F76251BEC831 /* Pods_YumYard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3029C28E2BF5E10B005E5D31 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		3029C2932BF5E831005E5D31 /* RecommendFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendFood.swift; sourceTree = "<group>"; };
+		3029C2962BF5F55E005E5D31 /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
+		3029C29B2BF5F671005E5D31 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		30710B872BF5A8F60034BB45 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		30710B892BF5ABB10034BB45 /* ColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorApp.swift; sourceTree = "<group>"; };
+		30710B8D2BF5B32C0034BB45 /* MyInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInput.swift; sourceTree = "<group>"; };
+		30710B942BF5BEA00034BB45 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3097D9E82BF4BA3700584C78 /* YumYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3097D9EB2BF4BA3700584C78 /* YumYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYardApp.swift; sourceTree = "<group>"; };
+		3097D9EF2BF4BA3800584C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3097D9F22BF4BA3800584C78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3097D9FC2BF4BA9100584C78 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3097DA012BF4BB4C00584C78 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		3097DA032BF4BD2500584C78 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		3097DA072BF4C1BF00584C78 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		3097DA0B2BF4CAA000584C78 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		3097DA0C2BF4CAA100584C78 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		3097DA0D2BF4CAA300584C78 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		3097DA0E2BF4CAA500584C78 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3097DA0F2BF4CAA700584C78 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3097DA102BF4CAA800584C78 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3097DA112BF4CAAA00584C78 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3097DA122BF4CAAC00584C78 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3097DA132BF4CAAD00584C78 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3097DA142BF4CAAF00584C78 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3097DA152BF4CAB000584C78 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		3097DA162BF4CAB200584C78 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3097DA172BF4CAB300584C78 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3097DA182BF4CAB500584C78 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3097DA192BF4CAB600584C78 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		3097DA1A2BF4CAB800584C78 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3097DA1B2BF4CAB900584C78 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3097DA1C2BF4CABB00584C78 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		3097DA1D2BF4CABC00584C78 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		3097DA312BF4CB5900584C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		30B210C52BF845B500A51692 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		30B210C92BF8460100A51692 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		30B210CC2BF8481500A51692 /* MyButtonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonPrimary.swift; sourceTree = "<group>"; };
+		30B210D02BF8635F00A51692 /* VerificationCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCode.swift; sourceTree = "<group>"; };
+		30B210D42BF8676400A51692 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		30B210D62BF8679100A51692 /* ShoppingCartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartItem.swift; sourceTree = "<group>"; };
+		30B210D82BF893B600A51692 /* DialogVerificationCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogVerificationCode.swift; sourceTree = "<group>"; };
+		30B210DB2BF89D7E00A51692 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		30B210DF2BF89EAC00A51692 /* CacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheKey.swift; sourceTree = "<group>"; };
+		30D2083D2BF7099D007A3C42 /* MyDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDialog.swift; sourceTree = "<group>"; };
+		30D208422BF7466B007A3C42 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		30D2086D2BF76ABE007A3C42 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		30D2086F2BF76ACF007A3C42 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		30D208712BF76AE0007A3C42 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		30D208732BF76AF2007A3C42 /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
+		BAE340126113F76251BEC831 /* Pods_YumYard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumYard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB15B27C126A2CAFD38187F1 /* Pods-YumYard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumYard.debug.xcconfig"; path = "Target Support Files/Pods-YumYard/Pods-YumYard.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A6D5CAAE826285CB1D9B9C /* Pods-YumYard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumYard.release.xcconfig"; path = "Target Support Files/Pods-YumYard/Pods-YumYard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3097D9E52BF4BA3700584C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8E01F2922969BB70A96AAC /* Pods_YumYard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3029C2902BF5E778005E5D31 /* RecommendFood */ = {
+			isa = PBXGroup;
+			children = (
+				3029C2932BF5E831005E5D31 /* RecommendFood.swift */,
+			);
+			path = RecommendFood;
+			sourceTree = "<group>";
+		};
+		3029C2952BF5F51E005E5D31 /* FoodDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3029C2962BF5F55E005E5D31 /* FoodDetail.swift */,
+			);
+			path = FoodDetail;
+			sourceTree = "<group>";
+		};
+		3029C2982BF5F5C1005E5D31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3029C29A2BF5F60E005E5D31 /* Request */,
+				3029C2992BF5F607005E5D31 /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3029C2992BF5F607005E5D31 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3029C29B2BF5F671005E5D31 /* Food.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3029C29A2BF5F60E005E5D31 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		30710B832BF5A8860034BB45 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				30B210C72BF845D400A51692 /* ForgotPassword */,
+				30B210C32BF8458600A51692 /* SignUp */,
+				30B210C22BF8457900A51692 /* SignIn */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		30710B842BF5A8920034BB45 /* Splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				30710B852BF5A8B00034BB45 /* Views */,
+			);
+			path = Splashscreen;
+			sourceTree = "<group>";
+		};
+		30710B852BF5A8B00034BB45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3097D9FC2BF4BA9100584C78 /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30710B862BF5A8C70034BB45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30710B872BF5A8F60034BB45 /* SignIn.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30710B8B2BF5B3090034BB45 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				30B210CB2BF847FB00A51692 /* Buttons */,
+				30D208442BF74D33007A3C42 /* SideMenu */,
+				30D2083F2BF745A8007A3C42 /* Views */,
+				30D2083C2BF70966007A3C42 /* Dialogs */,
+				30710B8C2BF5B31C0034BB45 /* Inputs */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		30710B8C2BF5B31C0034BB45 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				30710B8D2BF5B32C0034BB45 /* MyInput.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		30710B912BF5BE650034BB45 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30710B922BF5BE700034BB45 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30710B922BF5BE700034BB45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3029C2952BF5F51E005E5D31 /* FoodDetail */,
+				3029C2902BF5E778005E5D31 /* RecommendFood */,
+				30710B932BF5BE7C0034BB45 /* FoodItem */,
+				30710B942BF5BEA00034BB45 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30710B932BF5BE7C0034BB45 /* FoodItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoodItem;
+			sourceTree = "<group>";
+		};
+		3097D9DF2BF4BA3700584C78 = {
+			isa = PBXGroup;
+			children = (
+				3097D9EA2BF4BA3700584C78 /* YumYard */,
+				3097D9E92BF4BA3700584C78 /* Products */,
+				938F5C3B64B6D429EE374BB6 /* Pods */,
+				BC68D0A6FE637FCFE91537D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3097D9E92BF4BA3700584C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3097D9E82BF4BA3700584C78 /* YumYard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3097D9EA2BF4BA3700584C78 /* YumYard */ = {
+			isa = PBXGroup;
+			children = (
+				3097DA312BF4CB5900584C78 /* Info.plist */,
+				30B210DA2BF89D2700A51692 /* Cache */,
+				3097DA0A2BF4C94300584C78 /* Fonts */,
+				3097DA002BF4BAB700584C78 /* Connections */,
+				3097D9FF2BF4BAA800584C78 /* Enums */,
+				3097D9FE2BF4BA9D00584C78 /* Constants */,
+				3097D9FB2BF4BA5800584C78 /* Extensions */,
+				30710B8B2BF5B3090034BB45 /* CustomViews */,
+				3029C2982BF5F5C1005E5D31 /* Models */,
+				3097D9FA2BF4BA5000584C78 /* Screens */,
+				3097D9F92BF4BA4900584C78 /* Utils */,
+				3097D9EB2BF4BA3700584C78 /* YumYardApp.swift */,
+				3097D9EF2BF4BA3800584C78 /* Assets.xcassets */,
+				3097D9F12BF4BA3800584C78 /* Preview Content */,
+			);
+			path = YumYard;
+			sourceTree = "<group>";
+		};
+		3097D9F12BF4BA3800584C78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3097D9F22BF4BA3800584C78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3097D9F92BF4BA4900584C78 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3097DA012BF4BB4C00584C78 /* ColorUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3097D9FA2BF4BA5000584C78 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				30B210D22BF8673900A51692 /* ShoppingCart */,
+				30710B912BF5BE650034BB45 /* Home */,
+				30710B842BF5A8920034BB45 /* Splashscreen */,
+				30710B832BF5A8860034BB45 /* Auth */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3097D9FB2BF4BA5800584C78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3097DA032BF4BD2500584C78 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3097D9FE2BF4BA9D00584C78 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3097DA072BF4C1BF00584C78 /* ImageName.swift */,
+				30710B892BF5ABB10034BB45 /* ColorApp.swift */,
+				3029C28E2BF5E10B005E5D31 /* AppConstants.swift */,
+				30B210DF2BF89EAC00A51692 /* CacheKey.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3097D9FF2BF4BAA800584C78 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3097DA002BF4BAB700584C78 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		3097DA0A2BF4C94300584C78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3097DA1D2BF4CABC00584C78 /* OFL.txt */,
+				3097DA152BF4CAB000584C78 /* Poppins-Black.ttf */,
+				3097DA172BF4CAB300584C78 /* Poppins-BlackItalic.ttf */,
+				3097DA1C2BF4CABB00584C78 /* Poppins-Bold.ttf */,
+				3097DA0F2BF4CAA700584C78 /* Poppins-BoldItalic.ttf */,
+				3097DA122BF4CAAC00584C78 /* Poppins-ExtraBold.ttf */,
+				3097DA132BF4CAAD00584C78 /* Poppins-ExtraBoldItalic.ttf */,
+				3097DA112BF4CAAA00584C78 /* Poppins-ExtraLight.ttf */,
+				3097DA102BF4CAA800584C78 /* Poppins-ExtraLightItalic.ttf */,
+				3097DA0C2BF4CAA100584C78 /* Poppins-Italic.ttf */,
+				3097DA0B2BF4CAA000584C78 /* Poppins-Light.ttf */,
+				3097DA0D2BF4CAA300584C78 /* Poppins-LightItalic.ttf */,
+				3097DA162BF4CAB200584C78 /* Poppins-Medium.ttf */,
+				3097DA1A2BF4CAB800584C78 /* Poppins-MediumItalic.ttf */,
+				3097DA0E2BF4CAA500584C78 /* Poppins-Regular.ttf */,
+				3097DA182BF4CAB500584C78 /* Poppins-SemiBold.ttf */,
+				3097DA142BF4CAAF00584C78 /* Poppins-SemiBoldItalic.ttf */,
+				3097DA192BF4CAB600584C78 /* Poppins-Thin.ttf */,
+				3097DA1B2BF4CAB900584C78 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30B210C22BF8457900A51692 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				30710B862BF5A8C70034BB45 /* Views */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		30B210C32BF8458600A51692 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				30B210C42BF8459700A51692 /* Views */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		30B210C42BF8459700A51692 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30B210C52BF845B500A51692 /* SignUp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30B210C72BF845D400A51692 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				30B210C82BF845E000A51692 /* Views */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		30B210C82BF845E000A51692 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30B210C92BF8460100A51692 /* ForgotPassword.swift */,
+				30B210D02BF8635F00A51692 /* VerificationCode.swift */,
+				30B210D82BF893B600A51692 /* DialogVerificationCode.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30B210CB2BF847FB00A51692 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				30B210CC2BF8481500A51692 /* MyButtonPrimary.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		30B210D22BF8673900A51692 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				30B210D32BF8674100A51692 /* Views */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		30B210D32BF8674100A51692 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30B210D42BF8676400A51692 /* ShoppingCart.swift */,
+				30B210D62BF8679100A51692 /* ShoppingCartItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30B210DA2BF89D2700A51692 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				30B210DB2BF89D7E00A51692 /* CacheManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		30D2083C2BF70966007A3C42 /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				30D2083D2BF7099D007A3C42 /* MyDialog.swift */,
+			);
+			path = Dialogs;
+			sourceTree = "<group>";
+		};
+		30D2083F2BF745A8007A3C42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30D208422BF7466B007A3C42 /* RoundedCorner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30D208442BF74D33007A3C42 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				30D2086D2BF76ABE007A3C42 /* SideMenuView.swift */,
+				30D2086F2BF76ACF007A3C42 /* SideMenuHeaderView.swift */,
+				30D208712BF76AE0007A3C42 /* SideMenuRowView.swift */,
+				30D208732BF76AF2007A3C42 /* SideMenuOptionModel.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		938F5C3B64B6D429EE374BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB15B27C126A2CAFD38187F1 /* Pods-YumYard.debug.xcconfig */,
+				C9A6D5CAAE826285CB1D9B9C /* Pods-YumYard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC68D0A6FE637FCFE91537D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE340126113F76251BEC831 /* Pods_YumYard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3097D9E72BF4BA3700584C78 /* YumYard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3097D9F62BF4BA3800584C78 /* Build configuration list for PBXNativeTarget "YumYard" */;
+			buildPhases = (
+				068F50CD0C29A5DD9C2D7E0A /* [CP] Check Pods Manifest.lock */,
+				3097D9E42BF4BA3700584C78 /* Sources */,
+				3097D9E52BF4BA3700584C78 /* Frameworks */,
+				3097D9E62BF4BA3700584C78 /* Resources */,
+				1235572A5EF33DFB0FCBA021 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YumYard;
+			productName = YumYard;
+			productReference = 3097D9E82BF4BA3700584C78 /* YumYard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3097D9E02BF4BA3700584C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3097D9E72BF4BA3700584C78 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 3097D9E32BF4BA3700584C78 /* Build configuration list for PBXProject "YumYard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3097D9DF2BF4BA3700584C78;
+			productRefGroup = 3097D9E92BF4BA3700584C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3097D9E72BF4BA3700584C78 /* YumYard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3097D9E62BF4BA3700584C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3097DA302BF4CABC00584C78 /* OFL.txt in Resources */,
+				3097DA232BF4CABC00584C78 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				3097DA292BF4CABC00584C78 /* Poppins-Medium.ttf in Resources */,
+				3097D9F32BF4BA3800584C78 /* Preview Assets.xcassets in Resources */,
+				3097DA2C2BF4CABC00584C78 /* Poppins-Thin.ttf in Resources */,
+				3097DA202BF4CABC00584C78 /* Poppins-LightItalic.ttf in Resources */,
+				3097DA282BF4CABC00584C78 /* Poppins-Black.ttf in Resources */,
+				3097DA2B2BF4CABC00584C78 /* Poppins-SemiBold.ttf in Resources */,
+				3097DA2F2BF4CABC00584C78 /* Poppins-Bold.ttf in Resources */,
+				3097DA2D2BF4CABC00584C78 /* Poppins-MediumItalic.ttf in Resources */,
+				3097DA242BF4CABC00584C78 /* Poppins-ExtraLight.ttf in Resources */,
+				3097DA222BF4CABC00584C78 /* Poppins-BoldItalic.ttf in Resources */,
+				3097DA2A2BF4CABC00584C78 /* Poppins-BlackItalic.ttf in Resources */,
+				3097DA272BF4CABC00584C78 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				3097DA1E2BF4CABC00584C78 /* Poppins-Light.ttf in Resources */,
+				3097DA262BF4CABC00584C78 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				3097DA252BF4CABC00584C78 /* Poppins-ExtraBold.ttf in Resources */,
+				3097DA212BF4CABC00584C78 /* Poppins-Regular.ttf in Resources */,
+				3097DA1F2BF4CABC00584C78 /* Poppins-Italic.ttf in Resources */,
+				3097DA2E2BF4CABC00584C78 /* Poppins-ThinItalic.ttf in Resources */,
+				3097D9F02BF4BA3800584C78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		068F50CD0C29A5DD9C2D7E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YumYard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1235572A5EF33DFB0FCBA021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumYard/Pods-YumYard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumYard/Pods-YumYard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumYard/Pods-YumYard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3097D9E42BF4BA3700584C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B210CD2BF8481500A51692 /* MyButtonPrimary.swift in Sources */,
+				3097DA082BF4C1BF00584C78 /* ImageName.swift in Sources */,
+				30D2086E2BF76ABE007A3C42 /* SideMenuView.swift in Sources */,
+				3029C29C2BF5F671005E5D31 /* Food.swift in Sources */,
+				3029C2972BF5F55E005E5D31 /* FoodDetail.swift in Sources */,
+				30B210D92BF893B600A51692 /* DialogVerificationCode.swift in Sources */,
+				3029C2942BF5E831005E5D31 /* RecommendFood.swift in Sources */,
+				30710B8A2BF5ABB10034BB45 /* ColorApp.swift in Sources */,
+				30710B952BF5BEA00034BB45 /* Home.swift in Sources */,
+				3097D9FD2BF4BA9100584C78 /* SplashScreen.swift in Sources */,
+				30B210E02BF89EAC00A51692 /* CacheKey.swift in Sources */,
+				30B210DC2BF89D7E00A51692 /* CacheManager.swift in Sources */,
+				30D208432BF7466B007A3C42 /* RoundedCorner.swift in Sources */,
+				30B210C62BF845B500A51692 /* SignUp.swift in Sources */,
+				3097DA042BF4BD2500584C78 /* Color+Extension.swift in Sources */,
+				30B210CA2BF8460100A51692 /* ForgotPassword.swift in Sources */,
+				3029C28F2BF5E10B005E5D31 /* AppConstants.swift in Sources */,
+				30710B8E2BF5B32C0034BB45 /* MyInput.swift in Sources */,
+				30B210D12BF8635F00A51692 /* VerificationCode.swift in Sources */,
+				30710B882BF5A8F60034BB45 /* SignIn.swift in Sources */,
+				3097D9EC2BF4BA3700584C78 /* YumYardApp.swift in Sources */,
+				30B210D72BF8679100A51692 /* ShoppingCartItem.swift in Sources */,
+				30D208702BF76ACF007A3C42 /* SideMenuHeaderView.swift in Sources */,
+				30D208742BF76AF2007A3C42 /* SideMenuOptionModel.swift in Sources */,
+				30B210D52BF8676400A51692 /* ShoppingCart.swift in Sources */,
+				3097DA022BF4BB4C00584C78 /* ColorUtils.swift in Sources */,
+				30D2083E2BF7099D007A3C42 /* MyDialog.swift in Sources */,
+				30D208722BF76AE0007A3C42 /* SideMenuRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3097D9F42BF4BA3800584C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3097D9F52BF4BA3800584C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3097D9F72BF4BA3800584C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB15B27C126A2CAFD38187F1 /* Pods-YumYard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YumYard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YumYard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vanhien.YumYard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3097D9F82BF4BA3800584C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A6D5CAAE826285CB1D9B9C /* Pods-YumYard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YumYard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YumYard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vanhien.YumYard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3097D9E32BF4BA3700584C78 /* Build configuration list for PBXProject "YumYard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3097D9F42BF4BA3800584C78 /* Debug */,
+				3097D9F52BF4BA3800584C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3097D9F62BF4BA3800584C78 /* Build configuration list for PBXNativeTarget "YumYard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3097D9F72BF4BA3800584C78 /* Debug */,
+				3097D9F82BF4BA3800584C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3097D9E02BF4BA3700584C78 /* Project object */;
+}
